@@ -110,7 +110,7 @@ CREATE TABLE order_reviews (
 \copy orders               FROM 'data/raw/olist_orders_dataset.csv' CSV HEADER
 \copy order_items          FROM 'data/raw/olist_order_items_dataset.csv' CSV HEADER
 \copy order_payments       FROM 'data/raw/olist_order_payments_dataset.csv' CSV HEADER
-\copy order_reviews        FROM 'data/raw/olist_order_reviews_dataset.csv' CSV HEADER
+\copy order_reviews        FROM 'data/raw/olist_order_reviews_dataset.csv' WITH (FORMAT CSV,HEADER TRUE,ENCODING 'UTF8')
 
 -- ------------------------------------------------------------
 -- Sanity check — row counts should roughly match Kaggle's listing

@@ -220,3 +220,4 @@ __marimo__/
 .streamlit/secrets.toml
 .DS_Store
 .DS_Store
+sql/.DS_Store
