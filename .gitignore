@@ -221,3 +221,13 @@ __marimo__/
 .DS_Store
 .DS_Store
 sql/.DS_Store
+
+# secrets
+.env
+
+# virtual environment
+.venv/
+
+# logs and Python cache
+*.log
+__pycache__/
