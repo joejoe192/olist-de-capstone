@@ -1,0 +1,5 @@
+# Save this file as ".env" (with the dot) in the same folder as etl.py.
+# Never commit .env to git. Add a line ".env" to .gitignore.
+EXCHANGE_API_URL=https://v6.exchangerate-api.com/v6
+EXCHANGE_API_KEY=paste-your-key-here
+DATABASE_URL=postgresql+psycopg2://etl_user:etl_pass@localhost:5432/olist
